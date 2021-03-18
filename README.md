@@ -1,11 +1,13 @@
-#  Password Generator
+#  Password Generator Plan
 
-Password Generation Plan
-First create an array of mixed characters, numbers, and special characters.
-will generate a password by making astring of at least 8 characters long. 
-The password string characters will be selected randomly.
-The password can only be 128 characters long.
-The arrays of small, capital, numbers and speccial charachetes are added. 
+* First create an array of mixed characters, numbers, and special characters. 
+* The password string characters will be selected randomly from the above array.
+* The password character length will be between 8 and 128 characters log.
+* 
+
+#  Password Generation Steps:
+* The arrays of small, capital, numbers and speccial charachetes are generated. 
+* 
 
 ## Your Task
 
@@ -55,7 +57,7 @@ This homework is graded based on the following criteria:
 
 * Satisfies all of the preceding acceptance criteria plus the following:
 
-  * The homework should not produce any errors in the console when you inspect it using Chrome DevTools.
+* The homework should not produce any errors in the console when you inspect it using Chrome DevTools.
 
 ### Deployment: 32%
 
