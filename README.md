@@ -8,9 +8,10 @@
 #  Password Generation Steps:
 * The arrays of small, capital, numbers and speccial charachetes are generated. 
 * The code for password length generation options is added and checked.
-* The code for password options( small & capital letters, numbers ans specials characters) is added and checked.
+* The code for password options( small & capital letters, numbers and specials characters) is added and checked.
 * The password length and user options are stored in "passwordOption object".
-* Random number selction function is setup for arrays.
+* Random number selction function is setup to be applied on arrays.
+* 'getPasswordOptions() function is called under 'generatePassword" function to test all the options first"
 
 
 
