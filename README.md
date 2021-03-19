@@ -1,7 +1,7 @@
 #  Password Generator Plan
 
-* First create an array of mixed characters, numbers, and special characters. 
-* The password string characters will be selected randomly from the above array.
+* First create arrays of  small and capital letters, numbers as characters, and special characters. 
+* The password string characters will be selected randomly from the above arrays.
 * The password character length will be between 8 and 128 characters log.
 * 
 
@@ -12,54 +12,14 @@
 * The password length and user options are stored in "passwordOption object".
 * Random number selction function is setup to be applied on arrays.
 * 'getPasswordOptions() function is called under 'generatePassword" function to test all the options first"
+*  then steps to generatePassord function are built in the function.
+* The user selected options arrays are pushed into possible and guranted arrays.
+* From theses arrays, the passord characters are randomly selected by implementing random selection criteria. 
+* passord is generated based on the user selected length of passord using  'for' loops. 
+* the randomly selected guaranteed  charachters are also included in the password length.
+*  generated passord is written in textarea using querySelect and addEventlistners methods.
 
 
-
-## Acceptance Criteria
-
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN prompted for character types to include in the password
-THEN I choose lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
-
-## Mock-Up
-
-The following image shows the web application's appearance and functionality:
-
-![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-homework-demo.png)
-
-## Grading Requirements
-
-This homework is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the preceding acceptance criteria plus the following:
-
-* The homework should not produce any errors in the console when you inspect it using Chrome DevTools.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
 
 ### Application Quality: 15%
 
