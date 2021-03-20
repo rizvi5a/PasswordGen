@@ -16,38 +16,5 @@
 * The user selected options arrays are pushed into possible and guranted arrays.
 * From theses arrays, the passord characters are randomly selected by implementing random selection criteria. 
 * passord is generated based on the user selected length of passord using  'for' loops. 
-* the randomly selected guaranteed  charachters are also included in the password length.
-*  generated passord is written in textarea using querySelect and addEventlistners methods.
-
-
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the homework instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+* The randomly selected guaranteed charachters are also included in the password length.
+* Generated passord is written in textarea using querySelect and addEventlistners methods.
